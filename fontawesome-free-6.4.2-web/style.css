@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 50px 50px 450px 350px;
+    color: blue;
+    font-size: 50px;
+    transform: 5s;
+    position: {
+        left: 50px;
+        bottom: 60px;
+    };
+}
+
+p:hover {
+    color: red;
+    padding-left: 300px;
+    transition: 5s;
+}

@@ -1,0 +1,1499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Web bán đồ điện tử: Hà Xuân Khuyến</title>
+</head>
+<body>
+    <header>
+        <img src="images/header_navbar_top_1.png" alt="">
+    </header>
+    <nav> 
+        <div class="container">
+            <ul>
+                <li><a href=""><img style="width: 150px;" src="images/logo.jpg" alt=""></a></li>
+                <li id="address-form"><a href="#">Hà Nội<i class="fa-solid fa-sort-down"></i></a></li>
+                <li><input type="text" placeholder="Bạn tìm gì..."><i class="fa-solid fa-magnifying-glass"></i></li>
+                <li><a href="cart.html"><button><i class="fa-solid fa-cart-shopping"></i>Giỏ hàng</button></a></li>
+                <li><a href="">Lịch sử <br> đơn hàng</a></li>
+                <li><a href=""><span class="btn-content"><span class="btn-top"></span></span>Mua thẻ nạp ngay!</a></li>
+                <li><a href="">24h <br> Công nghệ</a></li>
+                <li><a href="">Hỏi đáp</a></li>
+                <li><a href="">Game app</a></li>
+                <div class="address-form">
+                    <div class="address-form-content">
+                        <h2>Chọn địa chỉ nhận hàng<span id="address-close">X Đóng</span></h2>
+                        <form action="">
+                            <p>Quý khách vui lòng cho biết Địa Chỉ Nhận Hàng để biết chính xác thời gian giao hàng</p>
+                            <select name="">
+                                <option value="#">--Chọn địa điểm</option>
+                                <option value="#">Hà Nội</option>
+                                <option value="#">TP.Hồ Chí Minh</option>
+                                <option value="#">Đà Nẵng</option>
+                                <option value="#">Hải Phòng</option>
+                                <option value="#">Đà Lạt</option>
+                                <option value="#">Đắk Lắk</option>
+                                <option value="#">Hải Dương</option>
+                                <option value="#">Phú Quốc</option>
+                                <option value="#">Nam Định</option>
+                            </select>
+                            <select name="">
+                                <option value="#">--Chọn Quận/Huyện</option>
+                                <option value="#">Quận Hà Đông</option>
+                                <option value="#">Quận Cầu Giấy</option>
+                                <option value="#">Huyện Mỹ Đức</option>
+                                <option value="#">Huyện Đam Rông</option>
+                                <option value="#">Huyện đảo Phú Quốc</option>
+                                <option value="#">Huyện Hải Hậu</option>
+                            </select>
+                            <select name="">
+                                <option value="#">--Chọn Phường/Xã</option>
+                                <option value="#">Phường Dương Nội</option>
+                                <option value="#">Phường Dịch Vọng</option>
+                                <option value="#">Xã Tuy Lai</option>
+                                <option value="#">Phường Trung Hòa</option>
+                                <option value="#">Phường Quan Hoa</option>
+                                <option value="#">Xã Đạ RSal</option>
+                            </select>
+                            <input type="text" placeholder="Số nhà tên đường">
+                            <button>Xác nhận</button>
+                        </form>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <section class="menu-bar">
+        <div class="container">
+            <div class="menu-bar-content">
+                <ul>
+                    <li><a href=""><i class="fa-solid fa-mobile-screen-button"></i>Điện thoại</a></li>
+                    <li><a href=""><i class="fa-solid fa-laptop"></i>Laptop</a></li>
+                    <li><a href=""><i class="fa-solid fa-tablet"></i>Tablet</a></li>
+                    <li><a href=""><i class="fa-solid fa-headphones"></i>Phụ kiện<i style="margin-left: 5px;" class="fa-solid fa-sort-down"></i></a>
+                        <div class="submenu">
+                            <ul>
+                                <li><a href="">Phụ kiện di động</a></li>
+                                <li><a href="">Phụ kiện laptop</a></li>
+                                <li><a href="">Thiết bị nhà thông minh</a></li>
+                                <li><a href="">Thương hiệu hàng đầu</a></li>
+                                <li><a href="">Thiết bị âm thanh</a></li>
+                                <li><a href="">Thiết bị lưu trữ</a></li>
+                                <li><a href="">Phụ kiện khác</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href=""><img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/icon-smartwatch-96x96-1.png" alt="" style="width: 20px; height: 20px;">Smartwatch</a></li>
+                    <li><a href=""><img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/watch-icon-96x96.png" alt="Đồng hồ" style="width: 20px; height: 20px;">Đồng hồ</a></li>
+                    <li><a href=""><img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/icon-pc-96x96.png" alt="PC, Máy in" style="width: 20px; height: 20px;">PC, Máy in<i style="margin-left: 5px;" class="fa-solid fa-sort-down"></i></a>
+                        <div class="submenu">
+                            <ul>
+                                <li><a href="">Máy in</a></li>
+                                <li><a href="">Mực in</a></li>
+                                <li><a href="">Màn hình máy tính</a></li>
+                                <li><a href="">Mành hình để bàn</a></li>
+                                <li><a href="">Phần mềm</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="">Máy cũ giá rẻ</a></li>
+                    <li><a href="">Sim, thẻ cào</a></li>
+                    <li><a href="">Trả góp điện nước</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- ----------------Slider------------------- -->
+    <section class="slider">
+        <div class="container">
+            <div class="slider-content">
+                <div class="slider-content-left">
+                    <div class="slider-content-left-top-container">
+                        <div class="slider-content-left-top">
+                            <a href=""><img src="images/big11-830-300-830x300.png" alt=""></a>
+                            <a href=""><img src="images/iphone-830-300-830x300.png" alt=""></a>
+                            <a href=""><img src="images/830-300-830x300-6.png" alt=""></a>
+                            <a href=""><img src="images/830-300-830x300-8.png" alt=""></a>
+                        </div>
+                        <div class="slider-content-left-top-btn">
+                            <i class="fa-solid fa-chevron-left  "></i>
+                            <i class="fa-solid fa-chevron-right "></i>
+                        </div>
+                    </div>
+                    <div class="slider-content-left-bottom">
+                        <li class="active">Săn sale 11.11</li>
+                        <li>Săn Iphone giá rẻ</li>
+                        <li>Săn Smart Watch</li>
+                        <li>Xiaomi 11 Lite 5G</li>
+                    </div>
+                </div>
+                <div class="slider-content-right">
+                    <li><a href=""><img src="images/laptopdesk(3)-340x340.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/laptopdesk(1)-340x340-1.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/laptopdesk-340x340.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/Frame39712x-340x340.png" alt=""></a></li>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="baner-one">
+        <div class="container">
+            <img width="100%" src="images/banner-ngang-msi-desk-2-1200x100.webp" alt="">
+        </div>
+    </section>
+    <section class="slider-product-one">
+        <div class="container">
+            <div class="slider-product-one-content">
+                <div class="slider-product-one-content-title">
+                     <h2>Săn sale Online mỗi ngày</h2>
+                </div>
+                <div class="slider-product-one-content-container">
+                    <div class="slider-product-one-content-items-content">
+                       <div class="slider-product-one-content-items">
+                        <div class="slider-product-one-content-item">
+                            <img src="images/Cart/iphone-13-midnight-1-200x200.jpg" alt="">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                <li><a href="chitietsp.html">iPhone 13 256GB</a></li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">20.990.000 <sup>đ</sup></a>  <span>-6%</span></li>
+                                <li class="li-color">19.990.000 <sup>đ</sup></li>
+                                <li>Quà 400.000 <sup>đ</sup></li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="images/camera-ip-360-do-1080p-tp-link-tapo-tc70-trang-thumb-1-600x600.webp" alt="">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                <li>Camera IP 360 Độ 1080P TP-Link Tapo TC70</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">650.000 <sup>đ</sup></a>  <span>-9%</span></li>
+                                <li class="li-color">590.000 <sup>đ</sup></li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="images/samsung-galaxy-z-flip4-5g-512gb-thumb-xanh-600x600.webp" alt="">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                <li>Samsung Galaxy Z Flip4 5G 512GB</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">29.490.000 <sup>đ</sup></a>  <span>-6%</span></li>
+                                <li class="li-color">12.490.000 <sup>đ</sup></li>
+                                <li>Quà 400.000 <sup>đ</sup></li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="images/tai-nghe-bluetooth-airpods-3-lightning-charge-apple-mpny3-trang-thumb1-600x6001.-600x600.webp" alt="">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                <li>Tai nghe Bluetooth AirPods Pro (2nd Gen)</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">32.990.000 <sup>đ</sup></a>  <span>-6%</span></li>
+                                <li class="li-color">15.000.000 <sup>đ</sup></li>
+                                <li>Quà 400.000 <sup>đ</sup></li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="images/Samsung-Galaxy-A53-den-thumb-1-600x600.webp" alt="">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                <li>Samsung Galaxy A53 đen</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">5.490.000 <sup>đ</sup></a>  <span>-6%</span></li>
+                                <li class="li-color">4.490.000 <sup>đ</sup></li>
+                                <li>Quà 400.000 <sup>đ</sup></li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-product-one-content-items">
+                        <div class="slider-product-one-content-item">
+                            <img src="images/iphone-11-den-600x600.webp" alt="">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                <li>iPhone 11 128GB</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">13.990.000 <sup>đ</sup></a>  <span>-15%</span></li>
+                                <li class="li-color">11.790.000 <sup>đ</sup></li>
+                                <li>Quà 400.000 <sup>đ</sup></li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="images/acer-aspire-7-gaming-a715-76g-5806-i5-nhqmfsv002-thumb-600x600.webp" alt="">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>HSSV GIẢM 500K</p></li>
+                                <li>Acer Aspire 7 Gaming A715 i5</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">21.490.000 <sup>đ</sup></a>  <span>-18%</span></li>
+                                <li class="li-color">75.490.000 <sup>đ</sup></li>
+                                <li>Quà 400.000 <sup>đ</sup></li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="images/apple-watch-se-2022-thumbnew-1-1-600x600.webp" alt="">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                <li>Apple Watch SE 2022 40mm</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">7.490.000 <sup>đ</sup></a>  <span>-20%</span></li>
+                                <li class="li-color">5.990.000 <sup>đ</sup></li>
+                                <li>Quà 400.000 <sup>đ</sup></li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half"></i>
+                                </li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="images/iphone-14-pro-vang-thumb-600x600.webp" alt="">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                <li>iPhone 14 Pro Max 128GB</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">29.990.000 <sup>đ</sup></a>  <span>-11%</span></li>
+                                <li class="li-color">26.490.000 <sup>đ</sup></li>
+                                <li>Quà 400.000 <sup>đ</sup></li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="images/dong-ho-thong-minh-xiaomi-watch-s1-nau-tn-600x600.webp" alt="">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                <li>Xiaomi Watch S1 46.5mm</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">5.990.000 <sup>đ</sup></a>  <span>-38%</span></li>
+                                <li class="li-color">3.690.000 <sup>đ</sup></li>
+                                <li>Quà 400.000 <sup>đ</sup></li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                    <div class="slider-product-one-content-btn">
+                        <i class="fa-solid fa-chevron-left fa-chevron-left-two"></i>
+                        <i class="fa-solid fa-chevron-right fa-chevron-right-two"></i>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="cate-feature">
+        <div class="container">
+            <p>Danh mục nổi bật</p>
+        <div class="box-cate">
+            <div class="box-cate-list">
+                <h3>
+                    <a href="#">
+                        <div class="img-box">
+                            <img width="55" height="55" src="images/Laptop.jpg" alt="">
+                        </div>
+                        <span>Laptop</span>
+                    </a>
+                </h3>
+                <h3>
+                    <a href="#">
+                        <div class="img-box">
+                            <img width="55" height="55" src="images/tablet.png" alt="">
+                        </div>
+                        <span>Tablet</span>
+                    </a>
+                </h3>
+                <h3>
+                    <a href="#">
+                        <div class="img-box">
+                            <img width="55" height="55" src="images/watch.png" alt="">
+                        </div>
+                        <span>Đồng hồ thông minh</span>
+                    </a>
+                </h3>
+                <h3>
+                    <a href="#">
+                        <div class="img-box">
+                            <img width="55" height="55" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/dien-thoai-doc-quyen-128x128.png" alt="">
+                        </div>
+                        <span>Điện thoại đặc biệt</span>
+                    </a>
+                </h3>
+                <h3>
+                    <a href="#">
+                        <div class="img-box">
+                            <img width="55" height="55" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Donghothoitrang-128x129.png" alt="">
+                        </div>
+                        <span>Đồng hồ thời trang</span>
+                    </a>
+                </h3>
+                <h3>
+                    <a href="#">
+                        <div class="img-box">
+                            <img width="55" height="55" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/icon-may-cu-60x60.png" alt="">
+                        </div>
+                        <span>Máy cũ giá rẻ</span>
+                    </a>
+                </h3>
+                <h3>
+                    <a href="#">
+                        <div class="img-box">
+                            <img width="55" height="55" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Oplung-128x128.png" alt="">
+                        </div>
+                        <span>Ốp lưng</span>
+                    </a>
+                </h3>
+                <h3>
+                    <a href="#">
+                        <div class="img-box">
+                            <img width="55" height="55" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/chuot-128x129.png" alt="">
+                        </div>
+                        <span>Chuột</span>
+                    </a>
+                </h3>
+                <h3>
+                    <a href="#">
+                        <div class="img-box">
+                            <img width="55" height="55" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/ban-phim-128x129.png" alt="">
+                        </div>
+                        <span>Bàn phím</span>
+                    </a>
+                </h3>
+                <h3>
+                    <a href="#">
+                        <div class="img-box">
+                            <img width="55" height="55" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Simthecao-129x129.png" alt="">
+                        </div>
+                        <span>Sim, thẻ cào</span>
+                    </a>
+                </h3>
+            </div>
+            <div class="box-cate-list">
+                <h3>
+                    <a href="#">
+                        <div class="img-box">
+                            <img width="55" height="55" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Loa-128x128.png" alt="">
+                        </div>
+                        <span>Loa</span>
+                    </a>
+                </h3>
+                <h3>
+                    <a href="#">
+                        <div class="img-box">
+                            <img width="55" height="55" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Tainghe-128x129.png" alt="">
+                        </div>
+                        <span>Tai nghe</span>
+                    </a>
+                </h3>
+                <h3>
+                    <a href="#">
+                        <div class="img-box">
+                            <img width="55" height="55" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Sacduphong-128x129.png" alt="">
+                        </div>
+                        <span>Sạc dự phòng</span>
+                    </a>
+                </h3>
+                <h3>
+                    <a href="#">
+                        <div class="img-box">
+                            <img width="55" height="55" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Capsac-129x129.png" alt="">
+                        </div>
+                        <span>Cáp sạc</span>
+                    </a>
+                </h3>
+                <h3>
+                    <a href="#">
+                        <div class="img-box">
+                            <img width="55" height="55" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Maytinhbo-128x129.png" alt="">
+                        </div>
+                        <span>Máy tính bộ</span>
+                    </a>
+                </h3>
+                <h3>
+                    <a href="#">
+                        <div class="img-box">
+                            <img width="55" height="55" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Mayin-128x129.png" alt="">
+                        </div>
+                        <span>Máy in</span>
+                    </a>
+                </h3>
+                <h3>
+                    <a href="#">
+                        <div class="img-box">
+                            <img width="55" height="55" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Manhinhmaytinh-128x129.png" alt="">
+                        </div>
+                        <span>Màn hình máy tính</span>
+                    </a>
+                </h3>
+                <h3>
+                    <a href="#">
+                        <div class="img-box">
+                            <img width="55" height="55" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Phukiengaming-128x129.png" alt="">
+                        </div>
+                        <span>Phụ kiện gaming</span>
+                    </a>
+                </h3>
+                <h3>
+                    <a href="#">
+                        <div class="img-box">
+                            <img width="55" height="55" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/may-chieu-icon-128x129.png" alt="">
+                        </div>
+                        <span>Thiết bị nhà thông minh</span>
+                    </a>
+                </h3>
+                <h3>
+                    <a href="#">
+                        <div class="img-box">
+                            <img width="55" height="55" src="" alt="">
+                        </div>
+                        <span>Camera, webcam</span>
+                    </a>
+                </h3>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Product gallery -->
+    <section class="product-gallery-one">
+        <div class="container">
+            <div class="product-gallery-one-content-title">
+                <h2>ĐIỆN THOẠI NỔI BẬT NHẤT</h2>
+                <ul>
+                    <li><a href="http://127.0.0.1:5501/chitietsp.html">Samsung Galaxy A72</a></li>
+                    <li><a href="">NOKIA-1243</a></li>
+                    <li><a href="">SOpp a76 AI</a></li>
+                    <li><a href="">Iphon 12pro max</a></li>
+                    <li><a href="">Xem tất cả</a></li>
+                </ul>
+            </div>
+            <div class="product-gallery-one-content-product">
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/./Điện thoại/anh_1.jpg" alt="">
+                            <div class="product-gallery-one-content-product-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 0%</p></li>
+                                <li>iPhone 15 Pro Max</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">34.990.000 <sup>đ</sup></a>  <span>-2%</span></li>
+                                <li class="li-color">33.990.000 <sup>đ</sup></li>
+                                <li>Quà 400.000 <sup>đ</sup></li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i> 13
+                                </li>
+                            </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Điện thoại/anh_2.jpg" alt="">
+                            <div class="product-gallery-one-content-product-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 0%</p></li>
+                                <li>iPhone 15 Pro</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">28.990.000 <sup>đ</sup></a>  <span>-3%</span></li>
+                                <li class="li-color">27.990.000 <sup>đ</sup></li>
+                                <li>Quà 400.000 <sup>đ</sup></li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                            </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Điện thoại/anh_3.jpg" alt="">
+                            <div class="product-gallery-one-content-product-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 0%</p></li>
+                                <li>iPhone 15 Plus</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li class="li-color">25.990.000 <sup>đ</sup></li>
+                            </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Điện thoại/anh_4.jpg" alt="">
+                            <div class="product-gallery-one-content-product-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                <li>iPhone 15</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li class="li-color">22.990.000 <sup>đ</sup></li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i> 
+                                </li>
+                            </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Điện thoại/anh_5.jpg" alt="">
+                            <div class="product-gallery-one-content-product-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 0%</p></li>
+                                <li>Samsung Galaxy A05</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">4.000.000 <sup>đ</sup></a>  <span>-2%</span></li>
+                                <li class="li-color">3.200.000 <sup>đ</sup></li>
+                                <li>Quà 400.000 <sup>đ</sup></li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                            </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Điện thoại/anh_6.jpg" alt="">
+                            <div class="product-gallery-one-content-product-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 0%</p></li>
+                                <li>OPPO Reno10 Pro 5G</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">14.990.000 <sup>đ</sup></a>  <span>-2%</span></li>
+                                <li class="li-color">13.990.000 <sup>đ</sup></li>
+                                <!-- <li>Quà 400.000 <sup>đ</sup></li> -->
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                            </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Điện thoại/anh_7.jpg" alt="">
+                            <div class="product-gallery-one-content-product-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                <li>Xiaomi Redmi 12</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">4.290.000 <sup>đ</sup></a>  <span>-6%</span></li>
+                                <li class="li-color">3.440.000 <sup>đ</sup></li>
+                                <li>Quà 400.000 <sup>đ</sup></li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i> 492
+                                </li>
+                            </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Điện thoại/anh_8.jpg" alt="">
+                            <div class="product-gallery-one-content-product-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                <li>Vivo Y17s</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">3.990.000 <sup>đ</sup></a>  <span>-5%</span></li>
+                                <li class="li-color">3.790.000 <sup>đ</sup></li>
+                                
+                            </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Điện thoại/anh_9.jpg" alt="">
+                            <div class="product-gallery-one-content-product-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                <li>iPhone 14 Pro Max</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">29.990.000 <sup>đ</sup></a>  <span>-11%</span></li>
+                                <li class="li-color">26.490.000 <sup>đ</sup></li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                            </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Điện thoại/anh_10.jpg" alt="">
+                            <div class="product-gallery-one-content-product-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                <li>Xiaomi 13T 5G</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">12.990.000 <sup>đ</sup></a>  <span>-7%</span></li>
+                                <li class="li-color">11.990.000<sup>đ</sup></li>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product-gallery-one">
+        <div class="container">
+            <div class="product-gallery-one-content-title">
+                <h2>LAPTOP, TABLET NỔI BẬT</h2>
+                <ul>
+                    <li><a href="">Laptop Asus</a></li>
+                    <li><a href="">Laptop HP</a></li>
+                    <li><a href="">iPad Air 5 M1 WiFi Cellular 64GB</a></li>
+                    <li><a href="">Xem tất cả 144 Laptop</a></li>
+                    <li><a href="">Xem tất cả 38 Tablet</a></li>
+                </ul>
+            </div>
+            <div class="product-gallery-one-content-product">
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Laptop, Tablet/anh_1.jpg" alt="">
+                            <div class="product-gallery-one-content-product-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>HSSV GIẢM 500K</p></li>
+                                <li>
+                                    Acer Aspire 3 A315 510P 32EF i3 N305 (NX.KDHSV.001)
+                                </li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">19.990.000 <sup>đ</sup></a>  <span>-15%</span></li>
+                                <li class="li-color">16.990.000 <sup>đ</sup></li>
+                                <li>Quà cặp sách</li>
+                                <li style="color: #de1c05;">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                            </div>
+                            <div class="comment">
+                                <p>Màn hình: 15.6", Full HD, 144Hz</p>
+                                <p>CPU: i5, 11400H, 2.7GHz</p>
+                                <p>Card: RTX 2050 4GB</p>
+                                <p>Pin: 3-cell, 48Wh</p>
+                                <p>Khối lượng: 2.3 kg</p>
+                        </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Laptop, Tablet/anh_2.jpg" alt="">
+                            <div class="product-gallery-one-content-product-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>HSSV GIẢM 500K</p></li>
+                                <li>Acer Aspire 7 Gaming A715 i5</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">21.490.000 <sup>đ</sup></a>  <span>-18%</span></li>
+                                <li class="li-color">17.490.000 <sup>đ</sup></li>
+                                <li>Quà <strong>1.880.000 <sup>đ</sup></strong></li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                            </div>
+                            <div class="comment">
+                                <p>Màn hình: 15.6", Full HD, 144Hz</p>
+                                <p>CPU: i5, 12450H, 2GHz</p>
+                                <p>Card: RTX 2050 4GB</p>
+                                <p>Pin: 3-cell, 50Wh</p>
+                                <p>Khối lượng: 2.1 kg</p>
+                        </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Laptop, Tablet/anh_3.jpg" alt="">
+                            <div class="product-gallery-one-content-product-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>HSSV GIẢM 700K</p></li>
+                                <li>HP 15s fq5147TU i7 1255U (7C133PA)</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">20.890.000 <sup>đ</sup></a>  <span>-16%</span></li>
+                                <li class="li-color">17.390.000 <sup>đ</sup></li>
+                                <!-- <li>Quà 400.000 <sup>đ</sup></li> -->
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                            </div>
+                            <div class="comment">
+                                <p>Màn hình: 15.6", Full HD</p>
+                                <p>CPU: i7, 1255U, 1.7GHz</p>
+                                <p>Card: Intel Iris Xe</p>
+                                <p>Pin: 3-cell, 41Wh</p>
+                                <p>Khối lượng: 1.69 kg</p>
+                        </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Laptop, Tablet/anh_4.jpg" alt="">
+                            <div class="product-gallery-one-content-product-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>HSSV GIẢM 700K</p></li>
+                                <li>MSI Gaming GF63 Thin 11UC i7 11800H (1228VN)</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">20.490.00 <sup>đ</sup></a>  <span>-7%</span></li>
+                                <li class="li-color">18.890.00 <sup>đ</sup></li>
+                                <!-- <li>Quà 400.000 <sup>đ</sup></li> -->
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star" style="color: #ddd;"></i>
+                                </li>
+                            </div>
+                            <div class="comment">
+                                <p>Màn hình: 15.6", Full HD, 144Hz</p>
+                                <p>CPU: i7, 11800H, 2.30 GHz</p>
+                                <p>Card: RTX 3050 Max-Q, 4GB</p>
+                                <p>Pin: 3-cell Li-ion, 52.4 Wh</p>
+                                <p>Khối lượng: 1.86 kg</p>
+                        </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Laptop, Tablet/anh_5.jpg" alt="">
+                            <div class="product-gallery-one-content-product-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>HSSV GIẢM 700K</p></li>
+                                <li>Acer Gaming Nitro 5 AN515 58769 i7 12700H</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">31.790.000 <sup>đ</sup></a>  <span>-22%</span></li>
+                                <li class="li-color">24.490.000 <sup>đ</sup></li>
+                                <li>Quà <strong>1.800.00 <sup>đ</sup></strong></li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                            </div>
+                            <div class="comment">
+                                <p>Màn hình: 15.6", Full HD, 144Hz</p>
+                                <p>CPU: i7, 12700H, 2.30 GHz</p>
+                                <p>Card: RTX 3050 4GB</p>
+                                <p>Pin: 4-cell, 57.5Wh</p>
+                                <p>Khối lượng: 2.5 kg</p>
+                        </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Laptop, Tablet/anh_6.jpg" alt="">
+                            <div class="product-gallery-one-content-product-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 0%</p></li>
+                                <li>ipad 9 WiFi</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">8.390.000 <sup>đ</sup></a>  <span>-10%</span></li>
+                                <li class="li-color">7.490.000 <sup>đ</sup></li>
+                                <!-- <li>Quà 400.000 <sup>đ</sup></li> -->
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                            </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Laptop, Tablet/anh_7.jpg" alt="">
+                            <div class="product-gallery-one-content-product-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 0%</p></li>
+                                <li>Samsung Galaxy Tab A8 (2022)</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">6.990.000 <sup>đ</sup></a>  <span>-15%</span></li>
+                                <li class="li-color">5.890.000 <sup>đ</sup></li>
+                                <!-- <li>Quà 400.000 <sup>đ</sup></li> -->
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i style="color: #ddd;" class="fa-solid fa-star"></i>
+                                </li>
+                            </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Laptop, Tablet/anh_8.jpg" alt="">
+                            <div class="product-gallery-one-content-product-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                <li>iPad Air 5 M1 WiFi 64GB</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">15.590.00 <sup>đ</sup></a>  <span>-6%</span></li>
+                                <li class="li-color">14.590.00 <sup>đ</sup></li>
+                                <li>Giá dặc biệt: 14.390.000 <sup>đ</sup></li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                            </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Laptop, Tablet/anh_9.jpg" alt="">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 0%</p></li>
+                            <li>iPad 10 WiFi 64 GB</li>
+                            <li class="item-online">
+                                <i></i>
+                                Online giá rẻ
+                            </li>
+                            <li><a href="">11.490.000 <sup>đ</sup></a>  <span>-1%</span></li>
+                            <li class="li-color">11.390.000<sup>đ</sup></li>
+                            <li>Giá đặc biệt: 11.290.000 <sup>đ</sup></li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i style="color: #ddd;" class="fa-solid fa-star"></i>
+                            </li>
+                        </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Laptop, Tablet/anh_10.jpg" alt="">
+                            <div class="product-gallery-one-content-product-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                <li>ISamsung Galaxy Tab A7 Lite</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">4.490.000 <sup>đ</sup></a>  <span>-20%</span></li>
+                                <li class="li-color">3.590.000 <sup>đ</sup></li>
+                                <li>Quà 590.000 <sup>đ</sup></li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i style="color: #ddd;" class="fa-solid fa-star"></i>
+                                </li>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product-gallery-one">
+        <div class="container">
+            <div class="product-gallery-one-content-title">
+                <h2>PHỤ KIỆN NỔI BẬT</h2>
+                <ul>
+                    <li><a href="">Sạc dự phòng</a></li>
+                    <li><a href="">Cáp sạc</a></li>
+                    <li><a href="">Tai nghe</a></li>
+                    <li><a href="">Loa</a></li>
+                    <li><a href="">Ốp lưng</a></li>
+                    <li><a href="">Xem tất cả <strong>2.715</strong> Phụ kiện</a></li>
+                </ul>
+            </div>
+            <div class="product-gallery-one-content-product">
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Phụ kiện/anh_1.jpeg" alt="">
+                            <div class="product-gallery-one-content-product-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>% giá rẻ quá</p></li>
+                                <li>Bluetooth AirPods Pro (2nd Gen)</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">6.190.000 <sup>đ</sup></a>  <span></span></li>
+                                <li class="li-color">5.990.000 <sup>đ</sup></li>
+                            </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Phụ kiện/anh_2" alt="">
+                            <div class="product-gallery-one-content-product-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>% GIÁ RẺ QUÁ</p></li>
+                                <li>Camera IP 360 Độ 1080P TP-Link Tapo TC70</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">650.000 <sup>đ</sup></a>  <span>-9%</span></li>
+                                <li class="li-color">590.000 <sup>đ</sup></li>
+                                <li>Quà 100.000 <sup>đ</sup></li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                            </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Phụ kiện/anh_3.jpg" alt="">
+                            <div class="product-gallery-one-content-product-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>% GIÁ RẺ QUÁ</p></li>
+                                <li>AVA+ 12W DS609A</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">380.000 <sup>đ</sup></a>  <span>-50%</span></li>
+                                <li class="li-color">190.000 <sup>đ</sup></li>
+                            </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Phụ kiện/anh_4.jpg" alt="">
+                            <div class="product-gallery-one-content-product-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>% GIÁ RẺ QUÁ</p></li>
+                                <li>Sạc 2 cổng Xmobile DS730-DB</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">250.000 <sup>đ</sup></a>  <span>-60%</span></li>
+                                <li>100.000 <sup>đ</sup></li>
+                            </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Phụ kiện/anh_5.jpg" alt="">
+                            <div class="product-gallery-one-content-product-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>% GIÁ RẺ QUÁ</p></li>
+                                <li>Bluetooth True Wireless AVA+ FreeGo Plus</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">390.000 <sup>đ</sup></a>  <span>-35%</span></li>
+                                <li class="li-color">250.000 <sup>đ</sup></li>
+                            </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Phụ kiện/anh_6.jpg" alt="">
+                            <div class="product-gallery-one-content-product-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>% GIÁ RẺ QUÁ</p></li>
+                                <li>Sạc Baseus CCGAN20C5-M</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">300.000 <sup>đ</sup></a>  <span>-36%</span></li>
+                                <li class="li-color">190.000 <sup>đ</sup></li>
+                            </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Phụ kiện/anh_7.jpg" alt="">
+                            <div class="product-gallery-one-content-product-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>% GIÁ RẺ QUÁ</p></li>
+                                <li>Chuột Bluetooth Logitech M240</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">400.000 <sup>đ</sup></a>  <span>-20%</span></li>
+                                <li class="li-color">320.000 <sup>đ</sup></li>
+                            </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Phụ kiện/anh_8.jpeg" alt="">
+                            <div class="product-gallery-one-content-product-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>% GIÁ RẺ QUÁ</p></li>
+                                <li>Loa vi tính Enkor E300 Plus</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">600.000 <sup>đ</sup></a>  <span>-35%</span></li>
+                                <li class="li-color">390.000 <sup>đ</sup></li>
+                            </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Phụ kiện/anh_9.jpg" alt="">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><img src="images/icon1-50x50.webp" alt=""><p>% GIÁ RẺ QUÁ</p></li>
+                            <li>Camera IP 360 Độ 1080P IMOU Ranger 2C A22EP-L</li>
+                            <li class="item-online">
+                                <i></i>
+                                Online giá rẻ
+                            </li>
+                            <li><a href="">690.000 <sup>đ</sup></a>  <span>-14%</span></li>
+                            <li class="li-color">590.000 <sup>đ</sup></li>
+                            <li>Quà <strong>100.000 <sup>đ</sup></strong></li>
+                        </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/Phụ kiện/anh_10.jpg" alt="">
+                            <div class="product-gallery-one-content-product-item-text">
+                                <li><img src="images/icon1-50x50.webp" alt=""><p>% GIÁ RẺ QUÁ</p></li>
+                                <li>Baseus ioTa 220V/140W BPE14A</li>
+                                <li class="item-online">
+                                    <i></i>
+                                    Online giá rẻ
+                                </li>
+                                <li><a href="">7.990.000 <sup>đ</sup></a>  <span>-50%</span></li>
+                                <li class="li-color">3.995.000 <sup>đ</sup></li>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ---------Product-gallery two -->
+    <section class="product-gallery-two">
+        <div class="container">
+            <div class="product-gallery-two-content">
+                <div class="product-gallery-two-content-right">
+                    <img src="images/clock.png" alt="">
+                </div>
+                <div class="product-gallery-two-content-left">
+                    <div class="product-gallery-two-content-left-top">
+                        <li class="activi">Đồng hồ thông minh</li>
+                        <li>Đồng hồ thời trang nam</li>
+                        <li>Đồng hồ thời trang nữ</li>
+                        <li>Đồng hồ thời trang trẻ em</li>
+                        <li><a href="#">Xem tất cả</a><i class="fa-solid fa-caret-right"></i></li>
+                    </div>
+                    <div class="product-gallery-two-content-left-bottom">
+                        <div class="product-gallery-two-content-left-bottom-item">
+                            <img src="images/Đồng hồ/anh_1.jpg" alt="">
+                            <div class="product-gallery-two-content-left-bottom-item-text">
+                                <li>Đặt trước đến 20/11</li>
+                                <li>Apple Watch SE 2022 40mm viền nhôm dây silicone</li>
+                                <li>Hàng sắp về</li>
+                                <li>5.590.000<sup>đ</sup></li>
+                                <li>Ưu đãi khủng</li>
+                            </div>
+                        </div>
+                        <div class="product-gallery-two-content-left-bottom-item">
+                            <img src="images/Đồng hồ/anh_2.jpg" alt="">
+                            <div class="product-gallery-two-content-left-bottom-item-text">
+                                <li>Đặt trước đến 20/11</li>
+                                <li>Samsung Galaxy Watch5 40mm dây silicone</li>
+                                <li>Hàng sắp về</li>
+                                <li>3.790.000<sup>đ</sup></li>
+                                <li>Ưu đãi khủng</li>
+                            </div>
+                        </div>
+                        <div class="product-gallery-two-content-left-bottom-item">
+                            <img src="images/Đồng hồ/anh_3.jpg" alt="">
+                            <div class="product-gallery-two-content-left-bottom-item-text">
+                                <li>Đặt trước đến 20/11</li>
+                                <li>Xiaomi Watch S1 46.5mm dây da</li>
+                                <li>Hàng sắp về</li>
+                                <li>3.690.000<sup>đ</sup></li>
+                                <li>Ưu đãi khủng</li>
+                            </div>
+                        </div>
+                        <div class="product-gallery-two-content-left-bottom-item">
+                            <img src="images/Đồng hồ/anh_4.jpeg" alt="">
+                            <div class="product-gallery-two-content-left-bottom-item-text">
+                                <li>Đặt trước đến 16/09</li>
+                                <li>Honor Watch GS3 45.9mm dây cao su</li>
+                                <li>Hàng sắp về</li>
+                                <li>1.790.000<sup>đ</sup></li>
+                                <li>Ưu đãi khủng</li>
+                            </div>
+                        </div>
+                        <div class="product-gallery-two-content-left-bottom-item">
+                            <img src="images/Đồng hồ/anh_5.jpg" alt="">
+                            <div class="product-gallery-two-content-left-bottom-item-text">
+                                <li>Đặt trước đến 16/09</li>
+                                <li>Apple Watch S8 GPS 45mm viền nhôm dây silicone</li>
+                                <li>Hàng sắp về</li>
+                                <li>9.990.000<sup>đ</sup></li>
+                                <li>Ưu đãi khủng</li>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="box-tech">
+            <div class="tech-news">
+                <h4>24H CÔNG NGHỆ
+                    <a href="#">
+                        Xem tất cả <i class="fa-solid fa-chevron-right fa-chevron-right-two"></i>
+                    </a>
+                </h4>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img width="100%" src="images/th-101023-151214-200x200.webp" alt="">
+                            <div class="text-tech">
+                                <span>
+                                    OPPO A2x ra mắt: Thiết kế đẹp, màu sắc trendy, giá 'mềm' khó cưỡng
+                                </span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img width="100%" src="images/110-101023-145928_1280x720-200x200.webp" alt="">
+                            <div class="text-tech">
+                                <span>
+                                    Người dùng Facebook cần lưu ý về bảo mật: 'Cửa nhà không khóa, chủ nhà chịu phạt'
+                                </span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img width="100%" src="images/ctzdht10-1-091023-102555-200x200.webp" alt="">
+                            <div class="text-tech">
+                                <span>
+                                    Gợi ý 5 mẫu đồng hồ Citizen cho ngày 20/10 tặng mẹ đầy ý nghĩa và tình cảm
+                                </span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <a href="#">
+                <img src="images/HCCTGDDnew1-285x350.webp" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="trade-mark">
+        <div class="container">
+            <div class="content-group-title">
+                <h4>CHUYÊN TRANG THƯƠNG HIỆU</h4>
+            </div>
+            <div class="row">
+                <a href="#" class="col l-4 trademark_item">
+                    <img src="images/samsung-390-210-390x210.png" alt="">
+                </a>
+                <a href="#" class="col l-4 trademark_item">
+                    <img src="images/chuyentrang-APPLEDT-390x210.webp" alt="">
+                </a>
+                <a href="#" class="col l-4 trademark_item">
+                    <img src="images/Laptop-390x210-3.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="newproduct">
+        <div class="container">
+            <div class="content-group-title">
+                <h4>CHUỖI MỚI DEAL KHỦNG</h4>
+            </div>
+            <div class="row">
+                <a href="#" class="col l-4 newproduct_item">
+                    <img width="100%" src="images/IP15-760-400-760x400-1.webp" alt="Photos">
+                </a>
+                <a href="#" class="col l-4 newproduct_item">
+                    <img width="100%" src="images/760x400-760x400-8.webp" alt="Photos">
+                </a>
+                <a href="#" class="col l-4 newproduct_item">
+                    <img width="100%" src="images/760x400-760x400-10.webp" alt="Photos">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="box-suggest">
+        <div class="container">
+            <p class="box-search-title">Tìm kiếm nhiều</p>
+            <div class="box-search-list">
+                <ul>
+                    <li>
+                        <a href="#">Iphone 15</a>
+                    </li>
+                    <li>
+                        <a href="#">Iphone 15 128gb</a>
+                    </li>
+                    <li>
+                        <a href="#">Iphone 15 plus</a>
+                    </li>
+                    <li>
+                        <a href="#">Iphone 15 pro</a>
+                    </li>
+                    <li>
+                        <a href="#">Iphone 15 pro max</a>
+                    </li>
+                    <li>
+                        <a href="#">Bàn phím máy tính</a>
+                    </li>
+                    <li>
+                        <a href="#">Loa jbl</a>
+                    </li>
+                    <li>
+                        <a href="#">Airtag</a>
+                    </li>
+                    <li>
+                        <a href="#">LG gram</a>
+                    </li>
+                    <li>
+                        <a href="#">Đồng hồ lacoste</a>
+                    </li>
+                    <li>
+                        <a href="#">Laptop đồ họa</a>
+                    </li>
+                    <li>
+                        <a href="#">Phụ kiện Samsung</a>
+                    </li>
+                    <li>
+                        <a href="#">Đồng hồ quartz</a>
+                    </li>
+                    <li>
+                        <a href="#">Đồng hồ thông minh chống nước</a>
+                    </li>
+                    <li>
+                        <a href="#">Macbook</a>
+                    </li>
+                    <li>
+                        <a href="#">rog</a>
+                    </li>
+                    <li>
+                        <a href="#">Orient star</a>
+                    </li>
+                    <li>
+                        <a href="#">SamSung tabs</a>
+                    </li>
+                    <li>
+                        <a href="#">Máy in brother</a>
+                    </li>
+                    <li>
+                        <a href="#">Khóa cửa điện tử</a>
+                    </li>
+                    <li>
+                        <a href="#">Đồng hồ mặt vuông</a>
+                    </li>
+                    <li>
+                        <a href="#">Màn hình Asus</a>
+                    </li>
+                    <li>
+                        <a href="#">Mac Air</a>
+                    </li>
+                    <li>
+                        <a href="#">Apple Watch Series 9</a>
+                    </li>
+                    <li>
+                        <a href="#">Apple Watch Ultra 2</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer class="footer" style="margin-top: 10px;">
+        <section class="footer-top clearfix">
+            <div class="footer-col">
+                <ul class="ft-listmenu">
+                    <li>
+                        <a href="#">Tích điểm Quà tặng VIP</a>
+                    </li>
+                    <li>
+                        <a href="#">Lịch sử mua hàng</a>
+                    </li>
+                    <li>
+                        <a href="#">Tìm hiểu về mua trả góp</a>
+                    </li>
+                    <li>
+                        <a href="#">Chính sách bảo hành</a>
+                    </li>
+                    <li>
+                        <a href="#">Xem thêm <i style="margin-left: 5px;" class="fa-solid fa-sort-down"></i> </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <ul class="ft-listmenu">
+                    <li>
+                        <a href="#">Giới thiệu công ty (MWG.vn)</a>
+                    </li>
+                    <li>
+                        <a href="#">Tuyển dụng</a>
+                    </li>
+                    <li>
+                        <a href="#">Gửi góp ý, khiếu nại</a>
+                    </li>
+                    <li>
+                        <a href="#">Tìm siêu thị (3.353 shop)</a>
+                    </li>
+                    <li>
+                        <a href="#">Xem bản mobie</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <div class="ft-listtel">
+                    <p class="ft-listtel-title">
+                        <strong>Tổng đài hỗ trợ</strong> (Miễn phí gọi)
+                    </p>
+                    <p class="ft-listtel-content">
+                        <span>Khếu nại:</span>
+                        <a style="color: #2f80ed;font-weight: bold;" href="#">1800.1062</a>
+                        (8:00 - 21:30)
+                    </p>
+                    <p class="ft-listtel-content">
+                        <span>Bảo hành:</span>
+                        <a style="color: #2f80ed;font-weight: bold;" href="#">1800.1064</a>
+                        (8:00 - 21:30)
+                    </p>
+                </div>
+            </div>
+            <div class="footer-col">
+                    <div class="ft-social">
+                        <a href="#" class="link-fb">
+                            <i class="fa-brands fa-facebook"></i>
+                            3886.8k Fan
+                        </a>
+                        <a href="#" class="link-ytb">
+                            <i class="fa-brands fa-youtube"></i>
+                            863k Đăng ký
+                        </a>
+        
+                        <a href="#" class="imgzalo">
+                            <img width="18" height="18" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/icon_zalo.png">
+                            Zalo TGDĐ
+                        </a>
+                </div>
+                <div class="ft-certify">
+                    <a href="#">
+                        <img width="100%" src="images/ft-certify.png" alt="">
+                    </a>
+                </div>
+                <div class="f-website">
+                    <div class="ft-logo">
+                        <p>Website cùng tập đoàn</p>
+                        <ul class="ft-logo-list">
+                            <img width="100%" src="images/ft-website.png" alt="">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="coryright">
+            <section>
+                <p>
+                    © 2018. Công ty cổ phần Thế Giới Di Động. GPDKKD: 0303217354 do sở KH & ĐT TP.HCM cấp ngày 02/01/2007. GPMXH: 238/GP-BTTTT do Bộ Thông Tin và Truyền Thông cấp ngày 04/06/2020.
+                    <br>
+                    Địa chỉ: 128 Trần Quang Khải, P.Tân Định, Q.1, TP.Hồ Chí Minh. Địa chỉ liên hệ và gửi chứng từ: Lô T2-1.2, Đường D1, Đ. D1, P.Tân Phú, TP.Thủ Đức, TP.Hồ Chí Minh. Điện thoại: 028 38125960. Email: cskh@thegioididong.com. Chịu trách nhiệm nội dung: Huỳnh Văn Tốt. Email: Tot.huynhvan@thegioididong.com.
+                    <a style="color: #288ad6;text-decoration: none;" href="#">Xem chính sách sử dụng</a>
+                </p>
+            </section>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

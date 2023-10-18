@@ -1,0 +1,1382 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết sản phẩm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,regular,italic,700,700italic&subset=latin-ext,greek-ext,cyrillic-ext,greek,vietnamese,latin,cyrillic" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="chitietsp.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/css/all.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="images/header_navbar_top_1.png" alt="">
+    </header>
+    <nav> 
+        <div class="container">
+            <ul>
+                <li><a href=""><img style="width: 150px;" src="images/logo.jpg" alt=""></a></li>
+                <li id="address-form"><a href="#">Hà Nội<i class="fa-solid fa-sort-down"></i></a></li>
+                <li><input type="text" placeholder="Bạn tìm gì..."><i class="fa-solid fa-magnifying-glass"></i></li>
+                <li><a href="cart.html"><button><i class="fa-solid fa-cart-shopping"></i>Giỏ hàng</button></a></li>
+                <li><a href="">Lịch sử <br> đơn hàng</a></li>
+                <li><a href=""><span class="btn-content"><span class="btn-top"></span></span>Mua thẻ nạp ngay!</a></li>
+                <li><a href="">24h <br> Công nghệ</a></li>
+                <li><a href="">Hỏi đáp</a></li>
+                <li><a href="">Game app</a></li>
+                <div class="address-form">
+                    <div class="address-form-content">
+                        <h2>Chọn địa chỉ nhận hàng<span id="address-close">X Đóng</span></h2>
+                        <form action="">
+                            <p>Quý khách vui lòng cho biết Địa Chỉ Nhận Hàng để biết chính xác thời gian giao hàng</p>
+                            <select name="">
+                                <option value="#">--Chọn địa điểm</option>
+                                <option value="#">Hà Nội</option>
+                            </select>
+                            <select name="">
+                                <option value="#">--Chọn Quận/Huyện</option>
+                                <option value="#">Hà Nội</option>
+                            </select>
+                            <select name="">
+                                <option value="#">--Chọn Phường/Xã</option>
+                                <option value="#">Hà Nội</option>
+                            </select>
+                            <input type="text" placeholder="Số nhà tên đường">
+                            <button>Xác nhận</button>
+                        </form>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <section class="menu-bar">
+        <div class="container">
+            <div class="menu-bar-content">
+                <ul>
+                    <li><a href=""><i class="fa-solid fa-mobile-screen-button"></i>Điện thoại</a></li>
+                    <li><a href=""><i class="fa-solid fa-laptop"></i>Laptop</a></li>
+                    <li><a href=""><i class="fa-solid fa-tablet"></i>Tablet</a></li>
+                    <li><a href=""><i class="fa-solid fa-headphones"></i>Phụ kiện<i style="margin-left: 5px;" class="fa-solid fa-sort-down"></i></a>
+                        <div class="submenu">
+                            <ul>
+                                <li><a href="">Phụ kiện di động</a></li>
+                                <li><a href="">Phụ kiện laptop</a></li>
+                                <li><a href="">Thiết bị nhà thông minh</a></li>
+                                <li><a href="">Thương hiệu hàng đầu</a></li>
+                                <li><a href="">Thiết bị âm thanh</a></li>
+                                <li><a href="">Thiết bị lưu trữ</a></li>
+                                <li><a href="">Phụ kiện khác</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href=""><img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/icon-smartwatch-96x96-1.png" alt="" style="width: 20px; height: 20px;">Smartwatch</a></li>
+                    <li><a href=""><img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/watch-icon-96x96.png" alt="Đồng hồ" style="width: 20px; height: 20px;">Đồng hồ</a></li>
+                    <li><a href=""><img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/icon-pc-96x96.png" alt="PC, Máy in" style="width: 20px; height: 20px;">PC, Máy in<i style="margin-left: 5px;" class="fa-solid fa-sort-down"></i></a>
+                        <div class="submenu">
+                            <ul>
+                                <li><a href="">Máy in</a></li>
+                                <li><a href="">Mực in</a></li>
+                                <li><a href="">Màn hình máy tính</a></li>
+                                <li><a href="">Mành hình để bàn</a></li>
+                                <li><a href="">Phần mềm</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="">Máy cũ giá rẻ</a></li>
+                    <li><a href="">Sim, thẻ cào</a></li>
+                    <li><a href="">Trả góp điện nước</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+            <!-- end navbar bottom--------------- -->
+        
+        
+        <!-- end--header-- -->
+        <div class="content">
+            <!-- start_product_details -->
+            <div class="grid wide">
+                <div class="product_details">
+                    <div class="pddt_topbar">
+                        <ul class="pddt_topbar_list">
+                            <li class="pddt_topbar_item">
+                                <a href="#" class="pddt_topbar_link">Điện thoại</a>
+                            </li>
+                            <li class="pddt_topbar_item">
+                                <i class="pddt_topbar_icon fas fa-angle-right"></i>
+                            </li>
+                            <li class="pddt_topbar_item">
+                                <a href="#" class="pddt_topbar_link">Điện thoại iphone (Apple)</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pddt_body">
+                        <div class="hidden_on_mobile pddt_title">
+                            <h3 class="pddt_title_name">Điện thoại iPhone 13 256GB</h3>
+                            <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="button" data-action="like" data-size="small" data-share="true"></div>
+                        </div>
+                        <div class="pddt_content">
+                            <div class="row">
+                                <div class="col l-7 c-12">
+                                    <div class="box_left">
+                                        <div class="carousel_img">
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/4s8kqslvkmU?si=-sWyq_bjcUSbB8mb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                        </div>
+                                        <div class="show_on_mobile_flex pddt_title pddt_title_on_mobile">
+                                            <h3 class="pddt_title_name">Điện thoại iPhone 13 256GB</h3>
+                                        </div>
+                                        <div class="pddt_img-main hidden_on_mobile">
+                                            <img src="images/Chi tiết sp/img_main.jpg" alt="Photos">
+                                        </div>
+                                        <div class="pddt_content-main hidden_on_mobile">
+                                            <h2 class="pddt_content-title">Bài viết đánh giá</h2>
+                                            <div class="pddt_content-body">
+                                                <h2>Apple thỏa mãn sự chờ đón của iFan và người dùng với sự ra mắt của iPhone 13. Dù ngoại hình không có nhiều thay đổi so với iPhone 12 nhưng với cấu hình mạnh mẽ hơn, đặc biệt pin “trâu” hơn và khả năng quay phim chụp ảnh cũng ấn tượng hơn, hứa hẹn mang đến những trải nghiệm thú vị trên phiên bản mới này.
+                                                    Hiệu năng đột phá cùng bộ xử lý Apple A15 Bionic</h2>
+                                                <br><p>Bộ vi xử lý Apple A15 mới gia tăng tốc độ CPU tới 50% và GPU đồ họa nhanh hơn 30% so với các đối thủ cạnh tranh trong cùng phân khúc, giúp iPhone 13 thể hiện sức mạnh khả năng xử lý ấn tượng hơn, mượt mà trên mọi tác vụ.</p>
+                                                <img src="images/Chi tiết sp/pddt_3.jpg" width="100%" height="auto" alt="Photos">
+                                                <div class="bg-article">
+
+                                                </div>
+                                                <div class="bg_show_pddt_content">
+                                                    <a onclick="show_content_active()" href="#show_content_active_reviewarticle">Xem thêm <i class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="hidden_on_mobile pddt_reviews">
+                                            <div class="pddt_reviews-header">
+                                                <h2>Đánh giá Điện thoại iPhone 13 256GB</h2>
+                                            </div>
+                                            <div class="pddt_reviews-body">
+                                                <ul class="pddt_reviews-list">
+                                                    <li class="pddt_reviews-item">
+                                                        <div class="rating-star">
+                                                            <div class="rating-top">
+                                                                <div class="rating-top-point">
+                                                                    4.4
+                                                                </div>
+                                                                <div class="rating-top-star">
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="far fa-star"></i>
+                                                                </div>
+                                                                <a href="#">15 Đánh giá</a>
+                                                            </div>
+                                                            <div class="rating-bottom">
+                                                                <ul class="rating-bottom-list">
+                                                                    <li class="rating-bottom-item">
+                                                                        <div class="rating-bottom-numberstar">
+                                                                            <span>5 <i class="fas fa-star"></i></span>
+                                                                        </div>
+                                                                        <div class="rating-progress">
+                                                                            <div class="progress">
+                                                                                <div class="progress-bar" style="width:73%"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <a href="#">73%</a>
+                                                                    </li>
+                                                                    <li class="rating-bottom-item">
+                                                                        <div class="rating-bottom-numberstar">
+                                                                            <span>4 <i class="fas fa-star"></i></span>
+                                                                        </div>
+                                                                        <div class="rating-progress">
+                                                                            <div class="progress">
+                                                                                <div class="progress-bar" style="width:7%"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        
+                                                                        <a href="#">7%</a>
+                                                                    </li>
+                                                                    <li class="rating-bottom-item">
+                                                                        <div class="rating-bottom-numberstar">
+                                                                            <span>3 <i class="fas fa-star"></i></span>
+                                                                        </div>
+                                                                        <div class="rating-progress">
+                                                                            <div class="progress">
+                                                                                <div class="progress-bar" style="width:7%"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <a href="#">7%</a>
+                                                                    </li>
+                                                                    <li class="rating-bottom-item">
+                                                                        <div class="rating-bottom-numberstar">
+                                                                            <span>2 <i class="fas fa-star"></i></span>
+                                                                        </div>
+                                                                        <div class="rating-progress">
+                                                                            <div class="progress">
+                                                                                <div class="progress-bar" style="width:13%"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <a href="#">13%</a>
+                                                                    </li>
+                                                                    <li class="rating-bottom-item">
+                                                                        <div class="rating-bottom-numberstar">
+                                                                            <span>1 <i class="fas fa-star"></i></span>
+                                                                        </div>
+                                                                        <div class="rating-progress">
+                                                                            <div class="progress">
+                                                                                <div class="progress-bar" style="width:0%"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <a href="#">0%</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="pddt_reviews-item">
+                                                        <h4 class="pddt_reviews-item-name">Chánh</h4>
+                                                        <div class="pddt_reviews_item-review">
+                                                            <ul class="pddt_reviews-review_star">
+                                                                <li><i class="fas fa-star"></i></li>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                            </ul>
+                                                            <div class="pddt_reviews_item_share">
+                                                                <i class="fas fa-heart"></i> Sẽ giới thiệu cho bạn bè, người thân
+                                                            </div>
+                                                        </div>
+                                                        <div class="pddt_reviews-item_comment">
+                                                            <span>Cho em hỏi: giá hoặc khuyến mãi không áp dụng trả góp 0% có nghĩ là ko lấy khuyến mãi vẫn được góp 0% với giá 26490.000₫ phải ko ạ</span>
+                                                        </div>
+                                                        <div class="pddt_reviews_item_footer">
+                                                            <div class="pddt_reviews_item_footer_like">
+                                                                <i class="far fa-thumbs-up"></i> Hữu ích
+                                                            </div>
+                                                            <div class="pddt_reviews_item_footer_disscus">
+                                                                <i class="fas fa-comment-dots"></i> Thảo luận
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="pddt_reviews-item">
+                                                        <h4 class="pddt_reviews-item-name">Chánh</h4>
+                                                        <div class="pddt_reviews_item-review">
+                                                            <ul class="pddt_reviews-review_star">
+                                                                <li><i class="fas fa-star"></i></li>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                            </ul>
+                                                            <div class="pddt_reviews_item_share">
+                                                                <i class="fas fa-heart"></i> Sẽ giới thiệu cho bạn bè, người thân
+                                                            </div>
+                                                        </div>
+                                                        <div class="pddt_reviews-item_comment">
+                                                            <span>Cho em hỏi: giá hoặc khuyến mãi không áp dụng trả góp 0% có nghĩ là ko lấy khuyến mãi vẫn được góp 0% với giá 26490.000₫ phải ko ạ</span>
+                                                        </div>
+                                                        <div class="pddt_reviews_item_footer">
+                                                            <div class="pddt_reviews_item_footer_like">
+                                                                <i class="far fa-thumbs-up"></i> Hữu ích
+                                                            </div>
+                                                            <div class="pddt_reviews_item_footer_disscus">
+                                                                <i class="fas fa-comment-dots"></i> Thảo luận
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="pddt_reviews-footer">
+                                                <a href="#"  class="pddt_review_commit"><i class="fas fa-star"></i> Viết đánh giá</a>
+                                                <a href="#" class="pddt_review_showall"><i class="fas fa-star"></i> Xem thêm 15 đánh giá</a>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col l-5 c-12">
+                                    <div class="box_right">
+                                        <div class="pddt_properties">
+                                            <ul class="properties_rom_list">
+                                                <li class="properties_rom_item">
+                                                    <a href="#" class="properties_rom_link ">64 GB</a>
+                                                </li>
+                                                <li class="properties_rom_item properties_color_link_active">
+                                                    <a href="#" class="properties_rom_link">256 GB</a>
+                                                </li>
+                                                <li class="properties_rom_item">
+                                                    <a href="#" class="properties_rom_link">512 GB</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="properties_color_list">
+                                                <li class="properties_color_item">
+                                                    <a href="#" class="properties_color_link">Xanh</a>
+                                                </li>
+                                                <li class="properties_color_item">
+                                                    <a href="#" class="properties_color_link ">Đỏ</a>
+                                                </li>
+                                                <li class="properties_color_item">
+                                                    <a href="#" class="properties_color_link">Tím</a>
+                                                </li>
+                                                <li class="properties_color_item">
+                                                    <a href="#" class="properties_color_link">Vàng</a>
+                                                </li>
+                                                <li class="properties_color_item properties_color_link_active">
+                                                    <a href="#" class="properties_color_link">Đen</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <ul class="pddt_spot_price_list">
+                                            <li class="pddt_spot_price_item">
+                                                <span class="pddt_spot_price_label">Giá tại: <span class="pddt_spot_price_label_show">Hà Nội <i class="fas fa-angle-down"></i></span></span>
+                                            </li>
+                                            <li class="pddt_spot_price_item">
+                                                <span class="pddt_spot_price_label">19.990.000đ <span class="pddt_spot_price_installment">Trả góp 0%</span></span>
+                                            </li>
+                                        </ul>
+                                        <div class="pddt_price_online">
+                                            <div class="pddt_price_online_label">
+                                                <h3>
+                                                    MUA ONLINE GIẢM SỐC <span>1.500.000₫</span> CÒN
+                                                </h3>
+                                            </div>
+                                            <span class="pddt_price_online_price">
+                                                <h3>18.490.000₫</h3>
+                                            </span>
+                                        </div>
+                                        <div class="pddt_block__promo">
+                                            <div class="pddt_promo_header">
+                                                <span class="pddt_promo_header_label">Khuyến mãi trị giá 1.390.000₫</span>
+                                                <span class="pddt-promo-txt">Giá và khuyến mãi dự kiến áp dụng đến 23:00 30/11</span>
+                                            </div>
+                                            <ul class="pddt_promo_body_list">
+                                                <li class="pddt_promo_body_item">
+                                                    <p class="pddt_promo_body_item_stt">1</p>
+                                                    <span class="pddt_promo_body_item_name">Thu cũ Đổi mới: Giảm đến 2 triệu (Tuỳ model máy cũ, Không kèm thanh toán qua cổng online, mua kèm) <a href="#">Xem chi tiết</a> </span>
+                                                </li>
+                                                <li class="pddt_promo_body_item">
+                                                    <p class="pddt_promo_body_item_stt">2</p>
+                                                    <span class="pddt_promo_body_item_name">Nhập mã MMSALE100 giảm ngay 1% tối đa 100.000đ khi thanh toán qua MOMO <a href="#">Xem chi tiết</a> </span>
+                                                    
+                                                </li>
+                                            </ul>
+                                            <div class="pddt_promo_bottom">
+                                                <span class="pddt_promo_bottom_label">Quà khuyến mãi: <a href="#">Tai nghe Bluetooth</a></span>
+                                            </div>
+                                            <div class="pddt_promo_footer">
+                                                <span>(*) Giá hoặc khuyến mãi không áp dụng trả góp lãi suất đặc biệt (0%, 0.5%, 1%)</span>
+                                            </div>
+                                       </div>
+                                       <div class="show_product_suppermarket">
+                                           <span><i class="fas fa-box"></i> Xem siêu thị có hàng</span>
+                                       </div>
+                                       <div class="campaign">
+                                            <h4 class="campaign_title">Ưu đã khi thanh toán</h4>
+                                            <div class="campaign_main">
+                                                <div class="campaign-left">
+                                                    <div class="campaign-header">
+                                                        <img src="images/Chi tiết sp/moca.jpg" width="75px" height="15px" alt="Photos">
+                                                        <div class="campaign-header-notes">?</div>
+                                                    </div>
+                                                    <div class="campaign-body">
+                                                        <ul class="campaign-body-list">
+                                                            <li class="campaign-body-item">
+                                                                <span class="campaign-body-item_highlight">Giảm 7% (tối đa 500K)</span>
+                                                            </li>
+                                                            <li class="campaign-body-item">
+                                                                 <span>Điện thoại Samsung</span>
+                                                             </li>
+                                                             <li class="campaign-body-item">
+                                                                 <span class="campaign_submit">Mua ngay</span>
+                                                             </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="campaign-right">
+                                                 <div class="campaign-header">
+                                                        <img src="images/Chi tiết sp/vib.jpg" width="35px" height="15px" alt="Photos">
+                                                        <div class="campaign-header-notes">?</div>
+                                                    </div>
+                                                    <div class="campaign-body">
+                                                        <ul class="campaign-body-list">
+                                                            <li class="campaign-body-item">
+                                                                <span class="campaign-body-item_highlight">Giảm 7% (tối đa 500K)</span>
+                                                            </li>
+                                                            <li class="campaign-body-item">
+                                                                <span>Điện thoại Samsung</span>
+                                                            </li>
+                                                            <li class="campaign-body-item">
+                                                                <span class="campaign_submit">Mua ngay</span>
+                                                            </li>
+                                                        </ul>
+                                                 </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="purchase">
+                                            <div class="button_purchase"><span>MUA NGAY</span></div>
+                                            <div class="payment_methods">
+                                                <a href="#">
+                                                    MUA TRẢ GÓP 0% <br>
+                                                    <span>Duyệt hồ sơ trong 5 phút</span>
+                                                </a>
+                                                <a href="#">
+                                                    TRẢ GÓP QUA THẺ <br>
+                                                    <span>Visa, Mastercard, JCB, Amex</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pddt_hotline">
+                                            <span>Gọi đặt mua <a style="color: #2f80ed;" href="tel:0122">1800.1060</a> (7:30 - 22:00)</span>
+                                        </div>
+                                        <div class="pddt_block__promo pddt_block__endow">
+                                            <div class="pddt_promo_header">
+                                                <span class="pddt_promo_header_label">3 ưu đãi thêm Dự kiến áp dụng đến 23:00 30/11</span>
+                                            </div>
+                                            <ul class="pddt_promo_body_list">
+                                                <li class="pddt_promo_body_item">
+                                                    <p class="pddt_promo_body_item_stt">1</p>
+                                                    <span class="pddt_promo_body_item_name">Mua 1 số iPad giảm đến 50% (Không kèm khuyến mãi khác của iPad). <a href="#">Xem chi tiết</a> </span>
+                                                </li>
+                                                <li class="pddt_promo_body_item">
+                                                    <p class="pddt_promo_body_item_stt">2</p>
+                                                    <span class="pddt_promo_body_item_name">Mua đồng hồ thời trang giảm 40% (không áp dụng khuyến mãi khác). <a href="#">Xem chi tiết</a> </span>
+                                                    
+                                                </li>
+                                                <li class="pddt_promo_body_item">
+                                                    <p class="pddt_promo_body_item_stt">3</p>
+                                                    <span class="pddt_promo_body_item_name">Giảm 40% Sim Vina GIỚI TRẺ_6T giá chỉ còn từ 450,000đ. <a href="#">Xem chi tiết</a> </span>
+                                                </li>
+                                                
+                                            </ul>
+                                            
+                                        </div>
+                                        <div class="configguration">
+                                            <div class="config_header">
+                                                <h2>Cấu hình Điện thoại iPhone 13 256GB</h2>
+                                            </div>
+                                            <div class="config_body">
+                                                <ul class="config_list">
+                                                    <li class="config_item">
+                                                        <span class="config_item_title">Màn hình:</span>
+                                                        <span class="config_item_values">OLED, 6.1", Super Retina XDR</span>
+                                                    </li>
+                                                    <li class="config_item">
+                                                        <span class="config_item_title">Hệ điều hành:</span>
+                                                        <span class="config_item_values">iOS 15</span>
+                                                    </li>
+                                                    <li class="config_item">
+                                                        <span class="config_item_title">Camera sau:</span>
+                                                        <span class="config_item_values">2 camera 12 MP</span>
+                                                    </li>
+                                                    <li class="config_item">
+                                                        <span class="config_item_title">Camera trước:</span>
+                                                        <span class="config_item_values">12 MP</span>
+                                                    </li>
+                                                    <li class="config_item">
+                                                        <span class="config_item_title">RAM:</span>
+                                                        <span class="config_item_values">4 GB</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="pddt_show_all_config">
+                                                <a onclick="pddt_show_all_config()" href="#">Xem thêm cấu hình chi tiết <i class="fas fa-caret-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <!-- ================================================================= -->
+                            <section class="slider-product-one">
+                                <div class="container_1">
+                                    <div class="slider-product-one-content">
+                                        <div class="slider-product-one-content-title">
+                                             <h2 style="font-size: 20px; text-transform: uppercase;">Mẫu điện thiết bị nổi bật</h2>
+                                        </div>
+                                        <div class="slider-product-one-content-container">
+                                            <div class="slider-product-one-content-items-content">
+                                               <div class="slider-product-one-content-items">
+                                                <div class="slider-product-one-content-item">
+                                                    <img src="images/iphone-12-tim-1-600x600.webp" alt="">
+                                                    <div class="slider-product-one-content-item-text">
+                                                        <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                                        <li>Iphone 12 Pro Max 128G</li>
+                                                        <li class="item-online">
+                                                            <i></i>
+                                                            Online giá rẻ
+                                                        </li>
+                                                        <li><a href="">32.990.000 <sup>đ</sup></a>  <span>-6%</span></li>
+                                                        <li>15.000.000 <sup>đ</sup></li>
+                                                        <li>Quà 400.000 <sup>đ</sup></li>
+                                                        <li>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                        </li>
+                                                    </div>
+                                                </div>
+                                                <div class="slider-product-one-content-item">
+                                                    <img src="images/camera-ip-360-do-1080p-tp-link-tapo-tc70-trang-thumb-1-600x600.webp" alt="">
+                                                    <div class="slider-product-one-content-item-text">
+                                                        <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                                        <li>Iphone 12 bro Max 128G</li>
+                                                        <li class="item-online">
+                                                            <i></i>
+                                                            Online giá rẻ
+                                                        </li>
+                                                        <li><a href="">32.990.000 <sup>đ</sup></a>  <span>-6%</span></li>
+                                                        <li>15.000.000 <sup>đ</sup></li>
+                                                        <li>Quà 400.000 <sup>đ</sup></li>
+                                                        <li>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                        </li>
+                                                    </div>
+                                                </div>
+                                                <div class="slider-product-one-content-item">
+                                                    <img src="images/samsung-galaxy-z-flip4-5g-512gb-thumb-xanh-600x600.webp" alt="">
+                                                    <div class="slider-product-one-content-item-text">
+                                                        <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                                        <li>Iphone 12 bro Max 128G</li>
+                                                        <li class="item-online">
+                                                            <i></i>
+                                                            Online giá rẻ
+                                                        </li>
+                                                        <li><a href="">32.990.000 <sup>đ</sup></a>  <span>-6%</span></li>
+                                                        <li>15.000.000 <sup>đ</sup></li>
+                                                        <li>Quà 400.000 <sup>đ</sup></li>
+                                                        <li>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                        </li>
+                                                    </div>
+                                                </div>
+                                                <div class="slider-product-one-content-item">
+                                                    <img src="images/tai-nghe-bluetooth-airpods-3-lightning-charge-apple-mpny3-trang-thumb1-600x6001.-600x600.webp" alt="">
+                                                    <div class="slider-product-one-content-item-text">
+                                                        <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                                        <li>Iphone 12 bro Max 128G</li>
+                                                        <li class="item-online">
+                                                            <i></i>
+                                                            Online giá rẻ
+                                                        </li>
+                                                        <li><a href="">32.990.000 <sup>đ</sup></a>  <span>-6%</span></li>
+                                                        <li>15.000.000 <sup>đ</sup></li>
+                                                        <li>Quà 400.000 <sup>đ</sup></li>
+                                                        <li>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                        </li>
+                                                    </div>
+                                                </div>
+                                                <div class="slider-product-one-content-item">
+                                                    <img src="images/Samsung-Galaxy-A53-den-thumb-1-600x600.webp" alt="">
+                                                    <div class="slider-product-one-content-item-text">
+                                                        <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                                        <li>Iphone 12 bro Max 128G</li>
+                                                        <li class="item-online">
+                                                            <i></i>
+                                                            Online giá rẻ
+                                                        </li>
+                                                        <li><a href="">32.990.000 <sup>đ</sup></a>  <span>-6%</span></li>
+                                                        <li>15.000.000 <sup>đ</sup></li>
+                                                        <li>Quà 400.000 <sup>đ</sup></li>
+                                                        <li>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                        </li>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="slider-product-one-content-items">
+                                                <div class="slider-product-one-content-item">
+                                                    <img src="images/iphone-11-den-600x600.webp" alt="">
+                                                    <div class="slider-product-one-content-item-text">
+                                                        <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                                        <li>Iphone 12 bro Max 128G</li>
+                                                        <li class="item-online">
+                                                            <i></i>
+                                                            Online giá rẻ
+                                                        </li>
+                                                        <li><a href="">32.990.000 <sup>đ</sup></a>  <span>-6%</span></li>
+                                                        <li>15.000.000 <sup>đ</sup></li>
+                                                        <li>Quà 400.000 <sup>đ</sup></li>
+                                                        <li>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                        </li>
+                                                    </div>
+                                                </div>
+                                                <div class="slider-product-one-content-item">
+                                                    <img src="images/acer-aspire-7-gaming-a715-76g-5806-i5-nhqmfsv002-thumb-600x600.webp" alt="">
+                                                    <div class="slider-product-one-content-item-text">
+                                                        <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                                        <li>Iphone 12 bro Max 128G</li>
+                                                        <li class="item-online">
+                                                            <i></i>
+                                                            Online giá rẻ
+                                                        </li>
+                                                        <li><a href="">32.990.000 <sup>đ</sup></a>  <span>-6%</span></li>
+                                                        <li>15.000.000 <sup>đ</sup></li>
+                                                        <li>Quà 400.000 <sup>đ</sup></li>
+                                                        <li>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                        </li>
+                                                    </div>
+                                                </div>
+                                                <div class="slider-product-one-content-item">
+                                                    <img src="images/apple-watch-se-2022-thumbnew-1-1-600x600.webp" alt="">
+                                                    <div class="slider-product-one-content-item-text">
+                                                        <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                                        <li>Iphone 12 bro Max 128G</li>
+                                                        <li class="item-online">
+                                                            <i></i>
+                                                            Online giá rẻ
+                                                        </li>
+                                                        <li><a href="">32.990.000 <sup>đ</sup></a>  <span>-6%</span></li>
+                                                        <li>15.000.000 <sup>đ</sup></li>
+                                                        <li>Quà 400.000 <sup>đ</sup></li>
+                                                        <li>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                        </li>
+                                                    </div>
+                                                </div>
+                                                <div class="slider-product-one-content-item">
+                                                    <img src="images/iphone-14-pro-vang-thumb-600x600.webp" alt="">
+                                                    <div class="slider-product-one-content-item-text">
+                                                        <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                                        <li>Iphone 12 bro Max 128G</li>
+                                                        <li class="item-online">
+                                                            <i></i>
+                                                            Online giá rẻ
+                                                        </li>
+                                                        <li><a href="">32.990.000 <sup>đ</sup></a>  <span>-6%</span></li>
+                                                        <li>15.000.000 <sup>đ</sup></li>
+                                                        <li>Quà 400.000 <sup>đ</sup></li>
+                                                        <li>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                        </li>
+                                                    </div>
+                                                </div>
+                                                <div class="slider-product-one-content-item">
+                                                    <img src="images/dong-ho-thong-minh-xiaomi-watch-s1-nau-tn-600x600.webp" alt="">
+                                                    <div class="slider-product-one-content-item-text">
+                                                        <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                                        <li>Iphone 12 bro Max 128G</li>
+                                                        <li class="item-online">
+                                                            <i></i>
+                                                            Online giá rẻ
+                                                        </li>
+                                                        <li><a href="">32.990.000 <sup>đ</sup></a>  <span>-6%</span></li>
+                                                        <li>15.000.000 <sup>đ</sup></li>
+                                                        <li>Quà 400.000 <sup>đ</sup></li>
+                                                        <li>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                        </li>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                            <div class="slider-product-one-content-items">
+                                                <div class="slider-product-one-content-item">
+                                                    <img src="images/acer-aspire-7-gaming-a715-76g-59mw-i5-nhqmysv001-thumb-600x600.webp" alt="">
+                                                    <div class="slider-product-one-content-item-text">
+                                                        <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                                        <li>Iphone 12 bro Max 128G</li>
+                                                        <li class="item-online">
+                                                            <i></i>
+                                                            Online giá rẻ
+                                                        </li>
+                                                        <li><a href="">32.990.000 <sup>đ</sup></a>  <span>-6%</span></li>
+                                                        <li>15.000.000 <sup>đ</sup></li>
+                                                        <li>Quà 400.000 <sup>đ</sup></li>
+                                                        <li>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                        </li>
+                                                    </div>
+                                                </div>
+                                                <div class="slider-product-one-content-item">
+                                                    <img src="images/apple-watch-se-2022-thumbnew-1-1-600x600.webp" alt="">
+                                                    <div class="slider-product-one-content-item-text">
+                                                        <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                                        <li>Iphone 12 bro Max 128G</li>
+                                                        <li class="item-online">
+                                                            <i></i>
+                                                            Online giá rẻ
+                                                        </li>
+                                                        <li><a href="">32.990.000 <sup>đ</sup></a>  <span>-6%</span></li>
+                                                        <li>15.000.000 <sup>đ</sup></li>
+                                                        <li>Quà 400.000 <sup>đ</sup></li>
+                                                        <li>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                        </li>
+                                                    </div>
+                                                </div>
+                                                <div class="slider-product-one-content-item">
+                                                    <img src="images/iphone-11-den-600x600.webp" alt="">
+                                                    <div class="slider-product-one-content-item-text">
+                                                        <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                                        <li>Iphone 12 bro Max 128G</li>
+                                                        <li class="item-online">
+                                                            <i></i>
+                                                            Online giá rẻ
+                                                        </li>
+                                                        <li><a href="">32.990.000 <sup>đ</sup></a>  <span>-6%</span></li>
+                                                        <li>15.000.000 <sup>đ</sup></li>
+                                                        <li>Quà 400.000 <sup>đ</sup></li>
+                                                        <li>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                        </li>
+                                                    </div>
+                                                </div>
+                                                <div class="slider-product-one-content-item">
+                                                    <img src="images/xiaomi-redmi-12-bac-thumb-600x600.webp" alt="">
+                                                    <div class="slider-product-one-content-item-text">
+                                                        <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                                        <li>Iphone 12 bro Max 128G</li>
+                                                        <li class="item-online">
+                                                            <i></i>
+                                                            Online giá rẻ
+                                                        </li>
+                                                        <li><a href="">32.990.000 <sup>đ</sup></a>  <span>-6%</span></li>
+                                                        <li>15.000.000 <sup>đ</sup></li>
+                                                        <li>Quà 400.000 <sup>đ</sup></li>
+                                                        <li>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                        </li>
+                                                    </div>
+                                                </div>
+                                                <div class="slider-product-one-content-item">
+                                                    <img src="images/asus-vz27ehe-r-27-inch-fhd-thumb-1-600x600.jpg" alt="">
+                                                    <div class="slider-product-one-content-item-text">
+                                                        <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                                                        <li>Iphone 12 bro Max 128G</li>
+                                                        <li class="item-online">
+                                                            <i></i>
+                                                            Online giá rẻ
+                                                        </li>
+                                                        <li><a href="">32.990.000 <sup>đ</sup></a>  <span>-6%</span></li>
+                                                        <li>15.000.000 <sup>đ</sup></li>
+                                                        <li>Quà 400.000 <sup>đ</sup></li>
+                                                        <li>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                        </li>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div>
+                        
+                                            <div class="slider-product-one-content-btn">
+                                                <i class="fa-solid fa-chevron-left fa-chevron-left-two"></i>
+                                                <i class="fa-solid fa-chevron-right fa-chevron-right-two"></i>
+                                            </div>
+                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+<!-- ================================================================================================================ -->
+<!-- =============================================================================== -->
+<section class="product-gallery-one">
+    <div class="container">
+        <div class="product-gallery-one-content-title">
+            <h2 style="font-size: 20px; text-transform: uppercase;">ĐIỆN THOẠI NỔI BẬT NHẤT</h2>
+            <ul>
+                <li><a href="">Samsung Galaxy Z Flip5 5G</a></li>
+                <li><a href="">OPPO Reno10 5G</a></li>
+                <li><a href="">iPhone 15 Pro</a></li>
+                <li><a href="">iPhone 12 Pro Max</a></li>
+                <li><a href="">Xem tất cả</a></li>
+            </ul>
+        </div>
+        <div class="product-gallery-one-content-product">
+            <div class="product-gallery-one-content-product-item">
+                <img src="images/./Điện thoại/anh_1.jpg" alt="">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 0%</p></li>
+                            <li>iPhone 15 Pro Max</li>
+                            <li class="item-online">
+                                <i></i>
+                                Online giá rẻ
+                            </li>
+                            <li><a href="">34.990.000 <sup>đ</sup></a>  <span>-2%</span></li>
+                            <li class="li-color">33.990.000 <sup>đ</sup></li>
+                            <li>Quà 400.000 <sup>đ</sup></li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i> 13
+                            </li>
+                        </div>
+            </div>
+            <div class="product-gallery-one-content-product-item">
+                <img src="images/Điện thoại/anh_2.jpg" alt="">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 0%</p></li>
+                            <li>iPhone 15 Pro</li>
+                            <li class="item-online">
+                                <i></i>
+                                Online giá rẻ
+                            </li>
+                            <li><a href="">28.990.000 <sup>đ</sup></a>  <span>-3%</span></li>
+                            <li class="li-color">27.990.000 <sup>đ</sup></li>
+                            <li>Quà 400.000 <sup>đ</sup></li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                        </div>
+            </div>
+            <div class="product-gallery-one-content-product-item">
+                <img src="images/Điện thoại/anh_3.jpg" alt="">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 0%</p></li>
+                            <li>iPhone 15 Plus</li>
+                            <li class="item-online">
+                                <i></i>
+                                Online giá rẻ
+                            </li>
+                            <li class="li-color">25.990.000 <sup>đ</sup></li>
+                        </div>
+            </div>
+            <div class="product-gallery-one-content-product-item">
+                <img src="images/Điện thoại/anh_4.jpg" alt="">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                            <li>iPhone 15</li>
+                            <li class="item-online">
+                                <i></i>
+                                Online giá rẻ
+                            </li>
+                            <li class="li-color">22.990.000 <sup>đ</sup></li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i> 
+                            </li>
+                        </div>
+            </div>
+            <div class="product-gallery-one-content-product-item">
+                <img src="images/Điện thoại/anh_5.jpg" alt="">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 0%</p></li>
+                            <li>Samsung Galaxy A05</li>
+                            <li class="item-online">
+                                <i></i>
+                                Online giá rẻ
+                            </li>
+                            <li><a href="">4.000.000 <sup>đ</sup></a>  <span>-2%</span></li>
+                            <li class="li-color">3.200.000 <sup>đ</sup></li>
+                            <li>Quà 400.000 <sup>đ</sup></li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                        </div>
+            </div>
+            <div class="product-gallery-one-content-product-item">
+                <img src="images/Điện thoại/anh_6.jpg" alt="">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 0%</p></li>
+                            <li>OPPO Reno10 Pro 5G</li>
+                            <li class="item-online">
+                                <i></i>
+                                Online giá rẻ
+                            </li>
+                            <li><a href="">14.990.000 <sup>đ</sup></a>  <span>-2%</span></li>
+                            <li class="li-color">13.990.000 <sup>đ</sup></li>
+                            <!-- <li>Quà 400.000 <sup>đ</sup></li> -->
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                        </div>
+            </div>
+            <div class="product-gallery-one-content-product-item">
+                <img src="images/Điện thoại/anh_7.jpg" alt="">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                            <li>Xiaomi Redmi 12</li>
+                            <li class="item-online">
+                                <i></i>
+                                Online giá rẻ
+                            </li>
+                            <li><a href="">4.290.000 <sup>đ</sup></a>  <span>-6%</span></li>
+                            <li class="li-color">3.440.000 <sup>đ</sup></li>
+                            <li>Quà 400.000 <sup>đ</sup></li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i> 492
+                            </li>
+                        </div>
+            </div>
+            <div class="product-gallery-one-content-product-item">
+                <img src="images/Điện thoại/anh_8.jpg" alt="">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                            <li>Vivo Y17s</li>
+                            <li class="item-online">
+                                <i></i>
+                                Online giá rẻ
+                            </li>
+                            <li><a href="">3.990.000 <sup>đ</sup></a>  <span>-5%</span></li>
+                            <li class="li-color">3.790.000 <sup>đ</sup></li>
+                            
+                        </div>
+            </div>
+            <div class="product-gallery-one-content-product-item">
+                <img src="images/Điện thoại/anh_9.jpg" alt="">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                            <li>iPhone 14 Pro Max</li>
+                            <li class="item-online">
+                                <i></i>
+                                Online giá rẻ
+                            </li>
+                            <li><a href="">29.990.000 <sup>đ</sup></a>  <span>-11%</span></li>
+                            <li class="li-color">26.490.000 <sup>đ</sup></li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                        </div>
+            </div>
+            <div class="product-gallery-one-content-product-item">
+                <img src="images/Điện thoại/anh_10.jpg" alt="">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><img src="images/icon1-50x50.webp" alt=""><p>Trả góp 20K/Ngày</p></li>
+                            <li>Xiaomi 13T 5G</li>
+                            <li class="item-online">
+                                <i></i>
+                                Online giá rẻ
+                            </li>
+                            <li><a href="">12.990.000 <sup>đ</sup></a>  <span>-7%</span></li>
+                            <li class="li-color">11.990.000<sup>đ</sup></li>
+                        </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- =============================================================================== -->
+                        
+                            <div class="row">
+                                <div class="col l-7 c-12">
+                                    <div class="box_bottom">
+                                        <div class="pddt_comment_top">
+                                            <div class="pddt_comment_form_input">
+                                                <form class="form_comment" action="">
+                                                    <textarea  class="input_comment" name="" id=""></textarea>
+                                                    <div class="form_option_tools">
+                                                        <div class="form_comment_option">
+                                                            <div class="form_comment_option_sent_photos">
+                                                                <i class="fas fa-camera"></i> Gửi ảnh
+                                                            </div>
+                                                            <a href="#" class="form_comment_regulation">Quy định đăng bình luận</a>
+                                                        </div>
+                                                        <button class="form_comment_submit">Gửi</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="midcmt">
+                                            <div class="midcmt_top">
+                                                <div class="midcmt_top-left">
+                                                    <h3>127 Bình luận</h3>
+                                                    <input type="checkbox" id="midcmt_top-left">
+                                                    <label for="midcmt_top-left">Xem Bình Luận Kỹ Thuật</label>
+                                                </div>
+                                                <div class="midcmt_top-right">
+                                                    <span><i class="fas fa-search"></i></span>
+                                                    <input type="text" placeholder="Tìm theo nội dung, người gửi">
+                                                </div>
+                                            </div>
+                                            <div class="midcmt_bottom">
+                                                <span>Sắp xếp theo:</span>
+                                                <input type="radio" id="rdo_dcx" name="sort_cmt">
+                                                <label for="rdo_dcx">Độ chính xác</label>
+                                                <input type="radio" id="rdo_new" name="sort_cmt">
+                                                <label for="rdo_new">Mới nhất</label>
+                                            </div>
+                                        </div>
+                                        <div class="pddt_comment_bottom">
+                                            <ul class="pddt_list_comment">
+                                                <li class="pddt_list_comment_item">
+                                                    <div class="pddt_list_comment_item_info">
+                                                        <div class="pddt_list_comment_item_info_name">
+                                                            <span class="img">V</span>
+                                                            <span class="name">Huỳnh Ngọc Vĩnh</span>
+                                                        </div>
+                                                        <div class="pddt_list_comment_item_comment">
+                                                            <span>Mình muốn hủy giữ đơn hàng này để đặt giữ đơn hàng khác ạ</span>
+                                                        </div>
+                                                        <div class="pddt_list_comment_item_bottom">
+                                                            <label for="comment_1" class="btn_rep">Trả lời</label>
+                                                            <span class="date">- 1 ngày trước</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pddt_list_comment_item_boxrep">
+                                                        <div class="pddt_list_comment_item_boxrep_header">
+                                                            <img src="images/Chi tiết sp/logo_mobile.png" width="23px" height="23px" alt="Avata">
+                                                            <span class="name">Huỳnh Tấn Phong</span>
+                                                            <span class="admin">Quản trị viên</span>
+                                                        </div>
+                                                        <div class="pddt_list_comment_item_boxrep_body">
+                                                            <span>Dạ bên em nhận tin và sẽ có nhân viên liên hệ lại trong 30 phút ạ
+                                                                Thông tin đến anh.</span>
+                                                        </div>
+                                                        <div class="pddt_list_comment_item_boxrep_bottom">
+                                                            <span class="rep">Trả lời</span> - 
+                                                            <span class="like"><i class="fas fa-thumbs-up"></i> Hài lòng</span> - 
+                                                            <span class="dislike"><i class="fas fa-thumbs-down"></i> Không hài lòng</span> - 
+                                                            <span class="date">1 ngày trước</span>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </li>
+                                                <li class="pddt_list_comment_item">
+                                                    <div class="pddt_list_comment_item_info">
+                                                        <div class="pddt_list_comment_item_info_name">
+                                                            <span class="img">V</span>
+                                                            <span class="name">Huỳnh Ngọc Vĩnh</span>
+                                                        </div>
+                                                        <div class="pddt_list_comment_item_comment">
+                                                            <span>Ad oi Dt mh oppo f9 tự dưng không tai game trong CH PLAY dc. Nó để là có ứng dụng ngăn chặn màn hình Google play hãy tắt. Làm sao để tắt dc. Mh k biết ứng dụng nào ngăn chặn cả
+                                                            </span>
+                                                        </div>
+                                                        <div class="pddt_list_comment_item_bottom">
+                                                            <span class="btn_rep">Trả lời</span>
+                                                            <span class="date"> - 1 ngày trước</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pddt_list_comment_item_boxrep">
+                                                        <div class="pddt_list_comment_item_boxrep_header">
+                                                            <img src="images/Chi tiết sp/logo_mobile.png" width="23px" height="23px" alt="Avata">
+                                                            <span class="name">Huỳnh Tấn Phong</span>
+                                                            <span class="admin">Quản trị viên</span>
+                                                        </div>
+                                                        <div class="pddt_list_comment_item_boxrep_body">
+                                                            <span>Dạ bên em nhận tin và sẽ có nhân viên liên hệ lại trong 30 phút ạ
+                                                                Thông tin đến anh.</span>
+                                                        </div>
+                                                        <div class="pddt_list_comment_item_boxrep_bottom">
+                                                            <span class="rep">Trả lời</span> - 
+                                                            <span class="like"><i class="fas fa-thumbs-up"></i> Hài lòng</span> - 
+                                                            <span class="dislike"><i class="fas fa-thumbs-down"></i> Không hài lòng</span> - 
+                                                            <span class="date">1 ngày trước</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="pagination_box_comment">
+                                            <ul class="pagination_box_comment_list">
+                                                <li class="pagination_box_comment_item">
+                                                    <a href="#" class="pagination_box_comment_link">1</a>
+                                                </li>
+                                                <li class="pagination_box_comment_item">
+                                                    <a href="#" class="pagination_box_comment_link">2</a>
+                                                </li>
+                                                <li class="pagination_box_comment_item">
+                                                    <a href="#" class="pagination_box_comment_link">3</a>
+                                                </li>
+                                                <li class="pagination_box_comment_item">
+                                                    <a href="#" class="pagination_box_comment_link">4</a>
+                                                </li>
+                                                <li class="pagination_box_comment_item">
+                                                    <a href="#" class="pagination_box_comment_link">...</a>
+                                                </li>
+                                                <li class="pagination_box_comment_item">
+                                                    <a href="#" class="pagination_box_comment_link">12</a>
+                                                </li>
+                                                <li class="pagination_box_comment_item">
+                                                    <a href="#" class="pagination_box_comment_link">>></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-active" id="content-active">
+                                <div class="content-active_main">
+                                    <div class="content-active_header">
+                                        <ul class="content_active_list">
+                                            <li onclick="show_content_active_config()" id="show_content_active_config" class="content_active_item">
+                                                <Span>Thông số kỹ thuật</Span>
+                                            </li>
+                                            <li onclick="show_content_active_reviewarticle()" id="show_content_active_reviewarticle" class="content_active_item ">
+                                                <Span>Bài viết đánh giá</Span>
+                                            </li>
+                                            <li onclick="show_content_active_highlight_point()" id="show_content_active_highlight_point()" class="content_active_item ">
+                                                <Span>Điểm nổi bật</Span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="content-active_body">
+                                        <div class="content-active_body_content" id="content-active_body_content_active_config">
+                                            <span>Thông số kỹ thuật</span>
+                                        </div>
+                                        <div class="content-active_body_content" id="content-active_body_content_reviewarticle">
+                                            <span>Thiết kế cải tiến hướng đến sự hoàn thiện
+                                                Samsung Galaxy Z Fold 2 vẫn giữ nguyên cơ chế màn hình gập ở thế hệ tiền nhiệm. Như một quyển sách, chiếc điện thoại mở ra để hiển thị màn hình lớn bên trong. Bên ngoài là một màn hình phụ tràn viền với thiết kế đục lỗ. 
+                                                
+                                                Màn hình gập cao cấp nhất | Galaxy Z Fold 2
+                                                
+                                                Những chất liệu cao cấp nhất đã được Samsung ưu ái trang bị lên Galaxy Z Fold 2, khung máy được làm từ nhôm, vuông vức hơn, giúp cho siêu phẩm màn hình gập mới của Samsung có một diện mạo nam tính và sang trọng hơn.
+                                                
+                                                Thiết kế cải tiến, sang trọng hơn | Galaxy Z Fold 2
+                                                
+                                                Mặt lưng của thiết bị được hoàn thiện từ kính cao cấp, có độ bóng mờ giúp giảm để lại dấu vân tay. Bên cạnh màu đen truyền thống, màu vàng đồng - gam màu mới lần đầu được Samsung giới thiệu trên Galaxy Z Fold 2 cũng rất ấn tượng.
+                                                
+                                                Gam màu vàng đồng mới ấn tượng | Galaxy Z Fold 2
+                                                
+                                                Đáng chú ý là phần bản lề trên Galaxy Z Fold 2 đã được Samsung cải tiến giúp cho thao tác gập mở máy trở nên sắc sảo. Giờ đây người dùng có thể mở và sử dụng máy linh hoạt ở nhiều góc độ khác nhau tương tự như mẫu smartphone Samsung Galaxy Z Flip.
+                                                
+                                                Với độ mỏng chỉ 6.9 mm khi mở ra, gập lại thì máy lại càng gọn gàng hơn, giúp cho việc sử dụng bằng 1 tay trên màn hình phụ trở nên tối ưu hơn.
+                                                
+                                                Thuận tiện cho sử dụng một tay | Galaxy Z Fold 2
+                                                
+                                                Cạnh dưới của máy là loa ngoài, mic thoại và một cổng sạc. Thật đáng tiếc khi Samsung tiếp tục loại bỏ jack 3.5 mm trên những mẫu điện thoại cao cấp của mình.
+                                                
+                                                Màn hình lớn và bền hơn thế hệ cũ
+                                                Màn hình phụ của Galaxy Z Fold 2 với thiết kế tràn viền Infinity-O, dùng camera đục lỗ trong màn hình giúp cho kích thước được mở rộng lên đến 6.23 inch, cho phép hiển thông tin nhiều hơn. Giờ đây bạn có thể sử dụng đầy đủ các tính năng như một màn hình độc lập, mà không bị giới hạn như thế hệ trước.
+                                                
+                                                </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div onclick="content_active_close()" class="content_active_close">
+                                    <span>X Đóng</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <!-- start_chatbox -->
+            <label for="checkbox_chatbox" for="chatbox" class="chatbox">
+                <i class="fas fa-comment-dots"></i>
+            </label>
+            <input id="checkbox_chatbox" hidden class="checkbox_chatbox" type="checkbox">
+            <div class="dialog_chat">
+                <div class="dialog_close">
+                    <label for="checkbox_chatbox" class="icon_chatbox_close">
+                        <i class="far fa-window-minimize"></i>
+                    </label>
+                </div>
+                <form action="" class="dialog_body was-validated">
+                    <div class="form-group form_body_dialogchat">
+                        <label for="">Quý khách muốn xưng hô là:</label>
+                        <select name="select" class="dialog_body_select">
+                            <option value=1>Anh</option>
+                            <option value=2>Chị</option>
+                        </select>
+                    </div>
+                    <div class="form-group form_body_dialogchat">
+                        <label for="uname">Tên của quý khách là:</label>
+                        <input type="text" class="form-control" id="uname" placeholder="Nhập tên của quý khách" name="uname"
+                            required>
+                        <div class="valid-feedback">Hoàn thành</div>
+                        <div class="invalid-feedback">Vui lòng nhập đủ thông tin.</div>
+                    </div>
+                    <div class="form-group form_body_dialogchat">
+                        <label for="numberphone">Số điện thoại của quý khách là:</label>
+                        <input type="numberphone" class="form-control" id="numberphone" placeholder="Nhập số điện thoại của quý khách:" name="numberphone"
+                            required>
+                        <div class="valid-feedback">Hoàn thành</div>
+                        <div class="invalid-feedback">Vui lòng nhập đủ thông tin.</div>
+                    </div>
+                    <div class="form-group form_body_dialogchat form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input form-check-input_body_dialogchat" type="checkbox" name="remember" required>   Bằng việc chọn bắt đầu chát, quý khách đồng ý với các điều khoản của Thegioidiong.com.
+                            <div class="valid-feedback">Đồng ý</div>
+                            <div class="invalid-feedback">Đồng ý để bắt đầu chát</div>
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Bắt đầu chát</button>
+                </form>
+            </div>
+        </div>
+        <footer class="footer" style="margin-top: 10px;">
+            <section class="footer-top clearfix">
+                <div class="footer-col">
+                    <ul class="ft-listmenu">
+                        <li>
+                            <a href="#">Tích điểm Quà tặng VIP</a>
+                        </li>
+                        <li>
+                            <a href="#">Lịch sử mua hàng</a>
+                        </li>
+                        <li>
+                            <a href="#">Tìm hiểu về mua trả góp</a>
+                        </li>
+                        <li>
+                            <a href="#">Chính sách bảo hành</a>
+                        </li>
+                        <li>
+                            <a href="#">Xem thêm <i style="margin-left: 5px;" class="fa-solid fa-sort-down"></i> </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <ul class="ft-listmenu">
+                        <li>
+                            <a href="#">Giới thiệu công ty (MWG.vn)</a>
+                        </li>
+                        <li>
+                            <a href="#">Tuyển dụng</a>
+                        </li>
+                        <li>
+                            <a href="#">Gửi góp ý, khiếu nại</a>
+                        </li>
+                        <li>
+                            <a href="#">Tìm siêu thị (3.353 shop)</a>
+                        </li>
+                        <li>
+                            <a href="#">Xem bản mobie</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <div class="ft-listtel">
+                        <p class="ft-listtel-title">
+                            <strong>Tổng đài hỗ trợ</strong> (Miễn phí gọi)
+                        </p>
+                        <p class="ft-listtel-content">
+                            <span>Khếu nại:</span>
+                            <a style="color: #2f80ed;font-weight: bold;" href="#">1800.1062</a>
+                            (8:00 - 21:30)
+                        </p>
+                        <p class="ft-listtel-content">
+                            <span>Bảo hành:</span>
+                            <a style="color: #2f80ed;font-weight: bold;" href="#">1800.1064</a>
+                            (8:00 - 21:30)
+                        </p>
+                    </div>
+                </div>
+                <div class="footer-col">
+                        <div class="ft-social">
+                            <a href="#" class="link-fb">
+                                <i class="fa-brands fa-facebook"></i>
+                                3886.8k Fan
+                            </a>
+                            <a href="#" class="link-ytb">
+                                <i class="fa-brands fa-youtube"></i>
+                                863k Đăng ký
+                            </a>
+            
+                            <a href="#" class="imgzalo">
+                                <img width="18" height="18" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/icon_zalo.png">
+                                Zalo TGDĐ
+                            </a>
+                    </div>
+                    <div class="ft-certify">
+                        <a href="#">
+                            <img width="100%" src="images/ft-certify.png" alt="">
+                        </a>
+                    </div>
+                    <div class="f-website">
+                        <div class="ft-logo">
+                            <p>Website cùng tập đoàn</p>
+                            <ul class="ft-logo-list">
+                                <img width="100%" src="images/ft-website.png" alt="">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="coryright">
+                <section>
+                    <p>
+                        © 2018. Công ty cổ phần Thế Giới Di Động. GPDKKD: 0303217354 do sở KH & ĐT TP.HCM cấp ngày 02/01/2007. GPMXH: 238/GP-BTTTT do Bộ Thông Tin và Truyền Thông cấp ngày 04/06/2020.
+                        <br>
+                        Địa chỉ: 128 Trần Quang Khải, P.Tân Định, Q.1, TP.Hồ Chí Minh. Địa chỉ liên hệ và gửi chứng từ: Lô T2-1.2, Đường D1, Đ. D1, P.Tân Phú, TP.Thủ Đức, TP.Hồ Chí Minh. Điện thoại: 028 38125960. Email: cskh@thegioididong.com. Chịu trách nhiệm nội dung: Huỳnh Văn Tốt. Email: Tot.huynhvan@thegioididong.com.
+                        <a style="color: #288ad6;text-decoration: none;" href="#">Xem chính sách sử dụng</a>
+                    </p>
+                </section>
+            </div>
+        </footer>
+    </div>
+    <script src="chitietsp.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>  
